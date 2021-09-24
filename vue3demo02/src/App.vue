@@ -1,7 +1,15 @@
 <template>
-  <div @click="addCount">{{count}}</div>
+  <!-- <div @click="addCount">{{count}}</div>
   <div>{{`姓名${per.name}, 年纪${per.age}, 性别${per.sex}`}}</div>
-  <student/>
+  <student/> -->
+  <!-- <div>
+    <h1>Hello App!</h1>
+    <p>
+      <router-link to="/">Go To Home</router-link>
+      <router-link to="/about">Go To About</router-link>
+    </p> -->
+    <router-view></router-view>
+  <!-- </div> -->
 </template>
 
 <script>
