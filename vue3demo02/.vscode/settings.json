@@ -1,0 +1,9 @@
+{
+  // #每次保存的时候自动格式化
+  "editor.formatOnSave": true,//部分情况可能会和eslint有冲突
+  // #每次保存的时候将代码按eslint格式进行修复
+  //"eslint.autoFixOnSave": true//现已废弃改为以下规则
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+  }
+  }
